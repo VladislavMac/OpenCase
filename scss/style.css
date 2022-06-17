@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background: #111;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.win-line {
+  position: fixed;
+  background: #21e5ff;
+  border: 0.1vw solid #21e5ff;
+  width: 0vw;
+  height: 14vw;
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #111;
+}
+
+.wrapper-open {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2vw;
+  -webkit-transition-duration: 2000ms;
+          transition-duration: 2000ms;
+}
+
+.wrapper-open .item-case {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 14vw;
+  height: 14vw;
+  background: -webkit-gradient(linear, left top, left bottom, from(#111), to(rgba(255, 2, 2, 0.716)));
+  background: linear-gradient(#111, rgba(255, 2, 2, 0.716));
+  border-right: 0.002vw solid #111;
+  color: white;
+  border-bottom: 0.2vw solid #21e5ff;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper-open .item-case .item-img {
+  padding: 0.5vw;
+}
+
+.wrapper-open .item-case .item-img img {
+  width: 10vw;
+  height: 8vw;
+}
+
+.wrapper-case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 5vw;
+}
+
+.wrapper-case button.button-case-open {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0e58eb), to(#9c0285));
+  background: linear-gradient(#0e58eb, #9c0285);
+  border: none;
+  border-radius: 0.5vw;
+  color: white;
+  font-size: 1.3vw;
+  width: 10vw;
+  height: 5vw;
+}
+
+.wrapper-case button.button-case-open:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#9c0285), to(#0e58eb));
+  background: linear-gradient(#9c0285, #0e58eb);
+}
+
+.wrapper-case .case-select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2vw;
+}
+
+.wrapper-case .case-select-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9c0285), to(#0e58eb));
+  background: linear-gradient(#9c0285, #0e58eb);
+  -webkit-box-shadow: 0 0 0.3vw 0.1vw #0e58eb;
+          box-shadow: 0 0 0.3vw 0.1vw #0e58eb;
+  color: white;
+  width: 15vw;
+  height: 15vw;
+}
+
+.wrapper-case .case-select-item_img img {
+  width: 12vw;
+  height: 12vw;
+}
+
+.wrapper-case .case-select-item:hover {
+  -webkit-box-shadow: 0 0 2vw 0.5vw #370edb;
+          box-shadow: 0 0 2vw 0.5vw #370edb;
+}
+/*# sourceMappingURL=style.css.map */
